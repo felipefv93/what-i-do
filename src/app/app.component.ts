@@ -41,13 +41,13 @@ export class AppComponent {
     this.msgVal='';
   }
 
-  borrar(){
-    this.producto.Estado = true;
-    this.producto.FechaCreacion = new Date().getTime();
-    this.producto.RutaImagen = "";
-    this.productos.push(this.producto);
-    this.producto = {};
-    console.log(this.producto);
-  }
+  // borrar(){
+  //   this.producto.Estado = true;
+  //   this.producto.FechaCreacion = new Date().getTime();
+  //   this.producto.RutaImagen = "";
+  //   this.productos.push(this.producto);
+  //   this.producto = {};
+  //   console.log(this.producto);
+  // }
 
 }
